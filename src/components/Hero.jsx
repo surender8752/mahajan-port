@@ -14,7 +14,7 @@ const Hero = () => (
                 <p className="max-w-xl mb-8 text-white/80">
                     Crafting High-Performance WordPress Solutions
                 </p>
-                <div className="flex gap-4 justify-center md:justify-start">
+                <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                     <a
                         href="#projects"
                         className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition-all duration-300 hover:scale-105 shadow-lg"
@@ -26,6 +26,17 @@ const Hero = () => (
                         className="border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition-all duration-300 hover:scale-105"
                     >
                         Contact Me
+                    </a>
+                    <a
+                        href="https://drive.google.com/file/d/1l9HNIU67Jb9QRcVNmkvWKhk1Go7doVOq/view?usp=drivesdk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                        </svg>
+                        Download Resume
                     </a>
                 </div>
             </div>
