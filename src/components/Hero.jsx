@@ -27,6 +27,8 @@ const Hero = () => (
                     >
                         Contact Me
                     </a>
+                </div>
+                <div className="flex justify-center md:justify-start mt-4">
                     <a
                         href="https://drive.google.com/file/d/1l9HNIU67Jb9QRcVNmkvWKhk1Go7doVOq/view?usp=drivesdk"
                         target="_blank"
