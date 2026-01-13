@@ -43,10 +43,10 @@ const Hero = () => {
                 {/* Buttons */}
                 <div className="flex flex-wrap gap-3 md:gap-4 justify-center mb-8 md:mb-10">
                     <a
-                        href="#contact"
+                        href="#projects"
                         className="bg-gradient-to-r from-purple-500 to-pink-500 px-5 md:px-8 py-2.5 md:py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 shadow-lg text-sm md:text-base lg:text-lg"
                     >
-                        Let's Talk
+                        Projects
                     </a>
                     <a
                         href="https://drive.google.com/file/d/1POVYRSWnAx-QcZAUIVXadQEqI1nR51mv/view?usp=drive_link"
