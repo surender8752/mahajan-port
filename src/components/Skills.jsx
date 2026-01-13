@@ -11,7 +11,7 @@ const Skills = () => (
                 "Backend",
                 "Tools",
             ].map((skill, i) => (
-                <div key={i} className="bg-white p-6 rounded-xl shadow">
+                <div key={i} className="bg-white p-6 rounded-xl shadow hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-indigo-300 hover:bg-gradient-to-br hover:from-indigo-50 hover:to-purple-50">
                     <h3 className="font-semibold text-lg">{skill}</h3>
                 </div>
             ))}

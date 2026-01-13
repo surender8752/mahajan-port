@@ -32,13 +32,13 @@ const Hero = () => (
 
             {/* Profile Image */}
             <div className="flex-1 flex justify-center md:justify-end">
-                <div className="relative">
+                <div className="relative animate-float">
                     {/* Decorative ring */}
-                    <div className="absolute -inset-4 bg-gradient-to-tr from-purple-400 to-indigo-300 rounded-full opacity-30 blur-xl animate-pulse"></div>
+                    <div className="absolute -inset-4 bg-gradient-to-tr from-purple-400 to-indigo-300 rounded-2xl opacity-30 blur-xl animate-pulse"></div>
                     <img
                         src={profileImg}
                         alt="Abhishek Mahajan"
-                        className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover object-top rounded-full border-4 border-white/30 shadow-2xl"
+                        className="relative w-64 md:w-80 lg:w-96 object-cover object-top rounded-2xl border-4 border-white/30 shadow-2xl"
                     />
                 </div>
             </div>
