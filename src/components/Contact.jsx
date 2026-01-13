@@ -8,10 +8,10 @@ const Contact = () => (
                     <span>+91 9872162107</span>
                 </p>
             </div>
-            <div className="p-3 md:p-4 bg-white rounded-xl shadow hover:shadow-xl hover:scale-105 hover:-translate-y-1 active:shadow-xl active:scale-105 active:-translate-y-1 transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-indigo-300 active:border-indigo-300 active:bg-indigo-50">
-                <p className="text-xs md:text-sm lg:text-base flex items-center justify-center gap-2 break-all">
+            <div className="p-3 md:p-4 bg-white rounded-xl shadow hover:shadow-xl hover:scale-105 hover:-translate-y-1 active:shadow-xl active:scale-105 active:-translate-y-1 transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-indigo-300 active:border-indigo-300 active:bg-indigo-50 overflow-hidden">
+                <p className="text-xs md:text-sm lg:text-base flex items-center justify-center gap-2 whitespace-nowrap">
                     <span>📧</span>
-                    <span>abhishekmahajan0303@gmail.com</span>
+                    <span className="truncate">abhishekmahajan0303@gmail.com</span>
                 </p>
             </div>
             <div className="p-3 md:p-4 bg-white rounded-xl shadow hover:shadow-xl hover:scale-105 hover:-translate-y-1 active:shadow-xl active:scale-105 active:-translate-y-1 transition-all duration-300 cursor-pointer border-2 border-transparent hover:border-indigo-300 active:border-indigo-300 active:bg-indigo-50">

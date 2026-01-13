@@ -56,7 +56,7 @@ const Hero = () => {
                         </div>
                         <div className="flex justify-center md:justify-start w-full mt-2 md:mt-2 lg:mt-4">
                             <a
-                                href="https://drive.google.com/file/d/1l9HNIU67Jb9QRcVNmkvWKhk1Go7doVOq/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1POVYRSWnAx-QcZAUIVXadQEqI1nR51mv/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-gradient-to-r from-purple-500 to-pink-500 px-3 md:px-4 lg:px-6 py-1.5 md:py-2 lg:py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-1 md:gap-2 text-xs md:text-sm lg:text-base"
