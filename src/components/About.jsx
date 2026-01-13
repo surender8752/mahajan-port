@@ -9,9 +9,9 @@ const About = () => (
             Proficient in theme customization, plugin development, SEO optimization, and responsive design.
         </p>
         <div className="grid md:grid-cols-3 gap-6 mt-10 text-center">
-            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200">📍 Bilaspur, HP</div>
-            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200">🎓 B.Tech in Biotechnology</div>
-            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200">🏫 Lovely Professional University (2020)</div>
+            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 active:shadow-xl active:scale-105 active:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200 active:border-indigo-200 active:bg-indigo-50">📍 Bilaspur, HP</div>
+            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 active:shadow-xl active:scale-105 active:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200 active:border-indigo-200 active:bg-indigo-50">🎓 B.Tech in Biotechnology</div>
+            <div className="p-6 shadow rounded-lg bg-white hover:shadow-xl hover:scale-105 hover:-translate-y-2 active:shadow-xl active:scale-105 active:-translate-y-2 transition-all duration-300 cursor-pointer border border-transparent hover:border-indigo-200 active:border-indigo-200 active:bg-indigo-50">🏫 Lovely Professional University (2020)</div>
         </div>
     </section>
 );
