@@ -23,7 +23,7 @@ const projects = [
 const Projects = () => (
     <section id="projects" className="py-20 px-6 max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 text-center">Projects</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
             {projects.map((project, i) => (
                 <a
                     key={i}

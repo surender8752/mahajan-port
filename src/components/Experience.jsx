@@ -32,18 +32,18 @@ const Experience = () => (
         <h2 className="text-3xl font-bold mb-12 text-center">Experience</h2>
         <div className="max-w-4xl mx-auto relative">
             {/* Timeline line */}
-            <div className="absolute left-0 md:left-1/2 transform md:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full"></div>
+            <div className="absolute left-0 sm:left-1/2 transform sm:-translate-x-1/2 h-full w-1 bg-gradient-to-b from-indigo-500 to-purple-500 rounded-full"></div>
 
             {experiences.map((exp, index) => (
                 <div
                     key={index}
-                    className={`relative flex items-center mb-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}
+                    className={`relative flex items-center mb-8 ${index % 2 === 0 ? 'sm:flex-row' : 'sm:flex-row-reverse'}`}
                 >
                     {/* Timeline dot */}
-                    <div className="absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-4 border-white shadow-lg z-10"></div>
+                    <div className="absolute left-0 sm:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-indigo-500 rounded-full border-4 border-white shadow-lg z-10"></div>
 
                     {/* Content card */}
-                    <div className={`ml-8 md:ml-0 md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
+                    <div className={`ml-8 sm:ml-0 sm:w-1/2 ${index % 2 === 0 ? 'sm:pr-12' : 'sm:pl-12'}`}>
                         <div className="bg-white p-6 rounded-xl shadow hover:shadow-2xl hover:scale-[1.02] active:shadow-2xl active:scale-[1.02] transition-all duration-300 cursor-pointer border-l-4 border-transparent hover:border-l-indigo-500 active:border-l-indigo-500 hover:bg-gradient-to-r hover:from-indigo-50 hover:to-white active:bg-gradient-to-r active:from-indigo-50 active:to-white">
                             <div className="flex items-center justify-between mb-2 flex-wrap gap-2">
                                 <h3 className="font-bold text-lg text-gray-800">{exp.title}</h3>

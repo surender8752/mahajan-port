@@ -26,9 +26,9 @@ const Hero = () => {
 
     return (
         <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 text-white px-6 pt-20">
-            <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+            <div className="max-w-6xl mx-auto flex flex-col-reverse sm:flex-row items-center gap-8 sm:gap-10 md:gap-16">
                 {/* Text Content */}
-                <div className="flex-1 text-center md:text-left">
+                <div className="flex-1 text-center sm:text-left">
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 min-h-[1.2em]">
                         {displayText}
                         <span className={`inline-block w-1 h-[1em] bg-white ml-1 align-middle ${isTyping ? 'animate-blink' : 'opacity-0'}`}></span>
@@ -39,7 +39,7 @@ const Hero = () => {
                     <p className="max-w-xl mb-8 text-white/80">
                         Crafting High-Performance WordPress Solutions
                     </p>
-                    <div className="flex flex-col items-center md:items-start">
+                    <div className="flex flex-col items-center sm:items-start">
                         <div className="inline-flex flex-wrap gap-4 justify-center">
                             <a
                                 href="#projects"
@@ -54,7 +54,7 @@ const Hero = () => {
                                 Contact Me
                             </a>
                         </div>
-                        <div className="flex justify-center w-full mt-4 md:w-[280px]">
+                        <div className="flex justify-center w-full mt-4 sm:w-[280px]">
                             <a
                                 href="https://drive.google.com/file/d/1l9HNIU67Jb9QRcVNmkvWKhk1Go7doVOq/view?usp=drivesdk"
                                 target="_blank"
@@ -71,14 +71,14 @@ const Hero = () => {
                 </div>
 
                 {/* Profile Image */}
-                <div className="flex-1 flex justify-center md:justify-end">
+                <div className="flex-1 flex justify-center sm:justify-end">
                     <div className="relative animate-float">
                         {/* Decorative ring */}
                         <div className="absolute -inset-4 bg-gradient-to-tr from-purple-400 to-indigo-300 rounded-2xl opacity-30 blur-xl animate-pulse"></div>
                         <img
                             src={profileImg}
                             alt="Abhishek Mahajan"
-                            className="relative w-64 md:w-80 lg:w-96 object-cover object-top rounded-2xl border-4 border-white/30 shadow-2xl"
+                            className="relative w-48 sm:w-64 md:w-80 lg:w-96 object-cover object-top rounded-2xl border-4 border-white/30 shadow-2xl"
                         />
                     </div>
                 </div>

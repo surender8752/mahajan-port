@@ -24,7 +24,7 @@ const skillsData = [
 const Skills = () => (
     <section id="skills" className="py-20 bg-gray-50 px-6">
         <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
             {skillsData.map((category, i) => (
                 <div
                     key={i}
