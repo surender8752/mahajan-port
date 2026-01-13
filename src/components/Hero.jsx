@@ -25,18 +25,18 @@ const Hero = () => {
     }, []);
 
     return (
-        <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 text-white px-4 sm:px-6 pt-20 pb-10">
-            <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12 xl:gap-16">
+        <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-600 to-purple-700 text-white px-4 sm:px-6 pt-16 sm:pt-20 pb-6 sm:pb-10">
+            <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-4 sm:gap-6 lg:gap-12 xl:gap-16">
                 {/* Text Content */}
                 <div className="flex-1 text-center lg:text-left">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 min-h-[1.2em]">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-4 min-h-[1.2em]">
                         {displayText}
                         <span className={`inline-block w-1 h-[1em] bg-white ml-1 align-middle ${isTyping ? 'animate-blink' : 'opacity-0'}`}></span>
                     </h1>
-                    <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-4 text-white/90">
+                    <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4 text-white/90">
                         WordPress Developer | 2+ Years Experience
                     </h2>
-                    <p className="max-w-xl mb-6 sm:mb-8 text-white/80 text-sm sm:text-base mx-auto md:mx-0">
+                    <p className="max-w-xl mb-4 sm:mb-6 lg:mb-8 text-white/80 text-sm sm:text-base mx-auto lg:mx-0">
                         Crafting High-Performance WordPress Solutions
                     </p>
                     <div className="flex flex-col items-center lg:items-start">
