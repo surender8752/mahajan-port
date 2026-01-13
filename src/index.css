@@ -38,3 +38,8 @@ html {
 .animate-blink {
   animation: blink 1s step-end infinite;
 }
+@media (min-width: 48rem) {
+    .md\:pb-6 {
+        padding-bottom: calc(var(--spacing) * 216);
+    }
+}
