@@ -2,7 +2,7 @@ const experiences = [
     {
         title: "WordPress Developer",
         company: "Second Brain, Delhi",
-        period: "July 2023 – Present",
+        period: "Jan 2024 – Present",
         current: true,
         responsibilities: [
             "Developed responsive WordPress websites for 15+ clients with SEO compliance",
