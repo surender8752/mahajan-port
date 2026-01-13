@@ -15,7 +15,7 @@ const Hero = () => (
                     Crafting High-Performance WordPress Solutions
                 </p>
                 <div className="flex flex-col items-center md:items-start">
-                    <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <div className="inline-flex flex-wrap gap-4 justify-center">
                         <a
                             href="#projects"
                             className="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition-all duration-300 hover:scale-105 shadow-lg"
@@ -29,12 +29,12 @@ const Hero = () => (
                             Contact Me
                         </a>
                     </div>
-                    <div className="flex justify-center w-full md:w-auto mt-4">
+                    <div className="flex justify-center w-full mt-4 md:w-[280px]">
                         <a
                             href="https://drive.google.com/file/d/1l9HNIU67Jb9QRcVNmkvWKhk1Go7doVOq/view?usp=drivesdk"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2 md:ml-[calc(50%-85px)]"
+                            className="bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 rounded-lg font-semibold hover:from-purple-600 hover:to-pink-600 transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
