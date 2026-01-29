@@ -49,7 +49,7 @@ const Hero = () => {
                         Projects
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1POVYRSWnAx-QcZAUIVXadQEqI1nR51mv/view?usp=drive_link"
+                        href="/Abhishek_Mahajan_Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="border-2 border-purple-400 text-purple-300 px-5 md:px-8 py-2.5 md:py-3 rounded-lg font-semibold hover:bg-purple-400/10 transition-all duration-300 hover:scale-105 text-sm md:text-base lg:text-lg"
